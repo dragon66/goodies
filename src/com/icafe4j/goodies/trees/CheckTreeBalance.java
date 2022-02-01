@@ -2,7 +2,7 @@ package com.icafe4j.goodies.trees;
 
 public class CheckTreeBalance {
    
-   public static void main( String[] args) {
+   public static void main(String[] args) {
       TreeNode root = new TreeNode();
       root.left = new TreeNode();
       root.left.left = new TreeNode();
