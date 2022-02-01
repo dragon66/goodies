@@ -1,3 +1,5 @@
+package com.icafe4j.goodies.trees;
+
 class TreeNode {
    TreeNode left;
    TreeNode right;
