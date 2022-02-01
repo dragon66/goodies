@@ -1,4 +1,4 @@
-package com.icafe4j.goodies.towers
+package com.icafe4j.goodies.towers;
 
 import java.util.Scanner;
 
