@@ -1,9 +1,9 @@
-Package com.icafe4j.goodies.towers
+package com.icafe4j.goodies.towers
 
 import java.util.Scanner;
 
 public class TowersOfHanoi {
-   Public void solve (into n, String start, String auxiliary String end) {
+   public void solve (int n, String start, String auxiliary, String end) {
      if(n == 1) {
        System.out.println(start + " -> " + end);
      } else {
@@ -13,7 +13,7 @@ public class TowersOfHanoi {
      }
    }
 
-   Public static void main(String[] args) {
+   public static void main(String[] args) {
      TowersOfHanoi towersOfHanoi = new TowersOfHanoi();
      System.out.print("Enter number of disc: ");
      Scanner scanner = new Scanner(System.in);
