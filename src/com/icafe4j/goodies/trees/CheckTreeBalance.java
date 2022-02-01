@@ -8,7 +8,7 @@ public class CheckTreeBalance {
       root.left.left = new TreeNode();
       root.right = new TreeNode();
       System.out.println(depth(root));
-      System.out.println(is balanced(root));
+      System.out.println(isBalanced(root));
    }
 
    public static boolean isBalanced(TreeNode root) {
