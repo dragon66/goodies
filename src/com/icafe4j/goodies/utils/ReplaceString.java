@@ -12,7 +12,7 @@ import java.io.IOException;
 * @author Wen Yu, yuwen_66@yahoo.com
 * @version 1.0 09/11/2019
 */
-public class Replace string {
+public class ReplaceString {
 
    public static void main(String[] args) {
       File baseFolder = new File("c:\\Users\\318163045\\git\\pixymeta-android\\src\\pixy");
@@ -23,11 +23,11 @@ public class Replace string {
       try {
           File[] files = dir.listFiles();
           for(File file : files) {
-             if(fileisDirectory()) {
+             if(file.isDirectory()) {
                 System.out.println("directory:" + file.getCanonicalPath());
                 replaceText(file);
              } else {
-                Buffered reader reader = new Buffered reader(new File reader(file));
+                BufferedReader reader = new BufferedReader(new FileReader(file));
                 String line = "", oldtext = "";
                 while ((line = reader.readLine() != null) {
                     oldtext += line + System.lineSeparator();
