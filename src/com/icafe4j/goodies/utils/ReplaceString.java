@@ -29,14 +29,14 @@ public class ReplaceString {
              } else {
                 BufferedReader reader = new BufferedReader(new FileReader(file));
                 String line = "", oldtext = "";
-                while ((line = reader.readLine() != null) {
+                while ((line = reader.readLine()) != null) {
                     oldtext += line + System.lineSeparator();
                 }
                 reader.close();
 
                 String replacedtext = oldtext.replaceAll("\\(c\\) 2014-2016", "(c) 2014-2019");
 
-                FileWriter writer = new File writer(file);
+                FileWriter writer = new FileWriter(file);
                 writer.write(replacedtext);
          
                 writer.close();
