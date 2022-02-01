@@ -34,7 +34,7 @@ public class Traversal {
          System.out.println(node.name);
          if(node.left != null)
             queue.offer(node.left);
-         if(queue.right != null)
+         if(node.right != null)
             queue.offer(node.right);
       }
    }
