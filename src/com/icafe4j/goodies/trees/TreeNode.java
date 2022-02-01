@@ -3,7 +3,7 @@ class TreeNode {
    private TreeNode right;
    private String name;
 
-   private TreeNode() {}
+   TreeNode() {}
 
-   private TreeNode(String name) { this.name = name;}
+   TreeNode(String name) { this.name = name;}
 }
