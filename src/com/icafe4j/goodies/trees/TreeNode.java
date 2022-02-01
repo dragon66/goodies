@@ -1,7 +1,7 @@
 class TreeNode {
-   private TreeNode left;
-   private TreeNode right;
-   private String name;
+   TreeNode left;
+   TreeNode right;
+   String name;
 
    TreeNode() {}
 
