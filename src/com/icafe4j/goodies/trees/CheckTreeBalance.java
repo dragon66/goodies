@@ -25,9 +25,4 @@ public class CheckTreeBalance {
       if(lChildH != rChildH) return -1;
       return 1 + lChildH; // lChildH == rChildH
    }
-
-   private static class TreeNode {
-      private TreeNode left;
-      private TreeNode right;
-   }
 }
