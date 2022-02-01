@@ -9,7 +9,7 @@ public class TowersOfHanoi {
      } else {
        solve(n - 1, start, end, auxiliary);
        System.out.println(start + " -> " + end);
-       Solve(n - 1, auxiliary, start, end);
+       solve(n - 1, auxiliary, start, end);
      }
    }
 
@@ -19,6 +19,6 @@ public class TowersOfHanoi {
      Scanner scanner = new Scanner(System.in);
      int discs = scanner.nextInt();
      scanner.close();
-     TowersOfHanoi.solve(discs, "A", "B", "C");
+     towersOfHanoi.solve(discs, "A", "B", "C");
    }
 }
