@@ -17,7 +17,7 @@ public class Traversal {
       Queue<TreeNode> queue = new ArrayDeque<>();
       queue.offer(root);
       System.out.println("Breadth First --- ");
-      breadthFirst(queue");
+      breadthFirst(queue);
    }
 
    private static void depthFirst(TreeNode root) {
